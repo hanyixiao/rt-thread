@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "intelliSenseMode": "clang-x64", 
+            "name": "Win32", 
+            "cppStandard": "c++11", 
+            "cStandard": "c99", 
+            "compilerPath": "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc", 
+            "includePath": [
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/applications", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/driver", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/driver/camera", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/packages/kendryte-sdk-v0.5.5/kendryte-standalone-sdk/lib/bsp/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/packages/kendryte-sdk-v0.5.5/kendryte-standalone-sdk/lib/drivers/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/k210/packages/kendryte-sdk-v0.5.5/kendryte-standalone-sdk/lib/utils/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/dfs/filesystems/devfs", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/dfs/filesystems/elmfat", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/dfs/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/drivers/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/drivers/spi", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/drivers/spi/sfud/inc", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/finsh", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/libc/compilers/newlib", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/utilities/ulog", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/libcpu/risc-v/common", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/libcpu/risc-v/k210"
+            ], 
+            "defines": [
+                "HAVE_CCONFIG_H", 
+                "RT_USING_NEWLIB"
+            ]
+        }
+    ]
+}

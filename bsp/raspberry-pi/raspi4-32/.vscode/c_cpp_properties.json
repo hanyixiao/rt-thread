@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "intelliSenseMode": "clang-x64", 
+            "name": "Win32", 
+            "cppStandard": "c++11", 
+            "cStandard": "c99", 
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc", 
+            "includePath": [
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/raspberry-pi/raspi4-32", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/raspberry-pi/raspi4-32/applications", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/bsp/raspberry-pi/raspi4-32/driver", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/dfs/filesystems/devfs", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/dfs/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/drivers/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/drivers/spi", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/finsh", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/components/libc/compilers/newlib", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/include", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/libcpu/arm/common", 
+                "/home/hanyixiao/Desktop/K210/RT-Thread/rt-thread/libcpu/arm/cortex-a"
+            ], 
+            "defines": [
+                "HAVE_CCONFIG_H", 
+                "RT_USING_NEWLIB"
+            ]
+        }
+    ]
+}
